@@ -1,33 +1,41 @@
-<h1 align="center">Oi, eu sou o Eduardo Figueiredo 👋</h1>
+<p align="center">
+  <img src="assets/profile-banner.svg" width="960" alt="Eduardo Figueiredo · Apps para Windows e servidores com Docker">
+</p>
 
-<p align="center"><strong>Apps para Windows · Servidores com Docker</strong><br>Poços de Caldas, MG</p>
+<p align="center">
+  <a href="https://github.com/eduardofigueiredodev/gamepad-lite-releases/releases/latest"><img src="https://img.shields.io/badge/Baixar_GamePad_Lite-147D70?style=for-the-badge" alt="Baixar GamePad Lite"></a>
+  <a href="https://github.com/eduardofigueiredodev/atm10tts-docker"><img src="https://img.shields.io/badge/Servidor_Minecraft-274B76?style=for-the-badge&logo=docker&logoColor=white" alt="Ver servidor de Minecraft"></a>
+</p>
 
-Criei o **GamePad Lite** pra ajustar controles no Windows, da curva dos analógicos à iluminação. Também monto servidores de jogos com Docker e documento como rodar tudo do zero.
+## O que eu faço
 
-## 🛠️ Tecnologias que uso
+Sou o Eduardo, de Poços de Caldas, MG. Criei o **GamePad Lite** pra ajustar como o controle responde no Windows, com perfis pra guardar as configurações de cada jogo. Também mantenho uma configuração em Docker pra subir um servidor de Minecraft modificado.
 
-**Apps para Windows**  
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square)
+## Tecnologias nos projetos
 
-**Servidores de jogos**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Docker_Compose-1D63ED?style=flat-square&logo=docker&logoColor=white)
+| Apps para Windows | Infraestrutura de jogos |
+| --- | --- |
+| ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-274B76?style=flat-square) ![UDP](https://img.shields.io/badge/UDP-147D70?style=flat-square) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Compose-274B76?style=flat-square&logo=docker&logoColor=white) ![Java 21](https://img.shields.io/badge/Java_21-AB4B21?style=flat-square&logo=eclipseadoptium&logoColor=white) |
 
-## 🎮 Projetos em destaque
+## Projetos
 
-### GamePad Lite
+### 🎮 GamePad Lite
 
-Emule um controle Xbox, ajuste vibração e iluminação e salve perfis com curvas e zonas mortas dos analógicos. Disponível para Windows 10 e 11.
+Um app para Windows 10 e 11 que permite emular um controle Xbox, ajustar curvas e zonas mortas dos analógicos e configurar vibração e iluminação em controles compatíveis. Jogos e mods também podem enviar efeitos ao app via UDP.
 
-[![Interface do GamePad Lite com o painel de entradas e os ajustes do controle](https://raw.githubusercontent.com/eduardofigueiredodev/gamepad-lite-releases/main/assets/gamepad-lite-preview.png)](https://github.com/eduardofigueiredodev/gamepad-lite-releases)
+[![GamePad Lite aberto no Windows, mostrando entradas, emulação Xbox, gatilhos e sensores](https://raw.githubusercontent.com/eduardofigueiredodev/gamepad-lite-releases/main/assets/gamepad-lite-preview.png)](https://github.com/eduardofigueiredodev/gamepad-lite-releases)
 
-[**Baixar para Windows**](https://github.com/eduardofigueiredodev/gamepad-lite-releases/releases/latest) · [Ver recursos e compatibilidade](https://github.com/eduardofigueiredodev/gamepad-lite-releases)
+[**Guia e compatibilidade**](https://github.com/eduardofigueiredodev/gamepad-lite-releases) · [Histórico de versões](https://github.com/eduardofigueiredodev/gamepad-lite-releases/releases) · [Reportar um bug ou sugerir uma ideia](https://github.com/eduardofigueiredodev/gamepad-lite-releases/issues)
 
-### All the Mods 10: To the Sky em Docker
+### ☁️ All the Mods 10: To the Sky em Docker
 
-Configuração com Docker Compose pra subir um servidor Minecraft com o modpack ATM10SKY. A imagem baixa o pacote do servidor do CurseForge durante o build e o mundo fica salvo em um volume Docker.
+O Docker Compose sobe o servidor do modpack ATM10SKY. O build busca o pacote no CurseForge e o volume do Docker guarda o mundo entre reinícios.
 
-[**Ver instruções de instalação**](https://github.com/eduardofigueiredodev/atm10tts-docker)
+[**Ver o Dockerfile e o passo a passo**](https://github.com/eduardofigueiredodev/atm10tts-docker)
 
 ---
 
-Achou um bug ou tem uma ideia pro GamePad Lite? [Abre uma issue por aqui](https://github.com/eduardofigueiredodev/gamepad-lite-releases/issues).
+<p align="center">
+  <a href="https://github.com/eduardofigueiredodev?tab=repositories">Repositórios</a> ·
+  <a href="https://github.com/eduardofigueiredodev#contribution-activity">Atividade no GitHub</a>
+</p>
