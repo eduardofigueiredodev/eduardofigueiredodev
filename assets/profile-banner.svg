@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="238" viewBox="0 0 960 238" role="img" aria-labelledby="title desc">
+  <title id="title">Eduardo Figueiredo</title>
+  <desc id="desc">Apps para Windows e servidores de jogos com Docker</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#101827"/>
+      <stop offset="1" stop-color="#172942"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#8096b5" stroke-opacity=".15"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="958" height="236" rx="22" fill="url(#background)" stroke="#354760"/>
+  <path d="M633 2H936Q958 2 958 24V214Q958 236 936 236H633Z" fill="url(#grid)"/>
+  <path d="M632 20V218" stroke="#354760"/>
+  <g font-family="Consolas, monospace" font-size="15" letter-spacing="1">
+    <circle cx="49" cy="52" r="4" fill="#7de6cf"/>
+    <text x="62" y="57" fill="#7de6cf">@EDUARDOFIGUEIREDODEV</text>
+    <text x="46" y="183" fill="#c0d3ea">Apps para Windows · Servidores com Docker</text>
+  </g>
+  <text x="44" y="128" fill="#f1f6ff" font-family="Segoe UI, Arial, sans-serif" font-size="53" font-weight="700">Eduardo Figueiredo</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M707 118h-27v62h61m154-62h26v62h-61" stroke="#58799b" stroke-width="2"/>
+    <path d="M752 79h96c20 0 36 15 40 35l10 48c4 18-15 29-28 16l-33-32h-74l-33 32c-13 13-32 2-28-16l10-48c4-20 20-35 40-35Z" fill="#101827" stroke="#83b8ed" stroke-width="3"/>
+    <path d="M746 110v25m-12-12h24" stroke="#7de6cf" stroke-width="5"/>
+    <path d="M779 123h8m25 0h8" stroke="#58799b" stroke-width="3"/>
+    <circle cx="852" cy="112" r="4" fill="#7de6cf"/>
+    <circle cx="864" cy="124" r="4" fill="#a8c8f0"/>
+    <circle cx="840" cy="124" r="4" fill="#a8c8f0"/>
+    <circle cx="852" cy="136" r="4" fill="#7de6cf"/>
+  </g>
+</svg>
